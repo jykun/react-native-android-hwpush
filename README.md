@@ -25,10 +25,10 @@ npm install jykun/react-native-android-hwpush.git --save
 3 set `android/build.gradlew`
 ```
 allprojects {
-    repositories {
-        ...
-        maven {url 'http://developer.huawei.com/repo/'}
-    }
+ repositories {
+  ...
+  maven {url 'http://developer.huawei.com/repo/'}
+ }
 }
 ```
 4 set `android/settings.gradle`
